@@ -1,3 +1,7 @@
+# ignore all keyboards except planck
+keyboards/*
+!keyboards/planck/*
+
 .history/
 .dep
 *.o
