@@ -8,7 +8,8 @@ SRC += muse.c
 #   ATmega32A    bootloadHID
 #   ATmega328P   USBasp
 BOOTLOADER = atmel-dfu
-AUDIO_ENABLE = no
+AUDIO_ENABLE = yes
 RGBLIGHT_ENABLE = no
+UNICODE_ENABLE = yes
 
 API_SYSEX_ENABLE = no
